@@ -1,6 +1,6 @@
 <?php
 // index.php
-    $domaine="http://192.168.83.1/kamerstartbattle/";
+    $domaine="https://kamerstarbattle.vercel.app/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
