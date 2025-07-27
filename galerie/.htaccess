@@ -1,0 +1,4 @@
+# Bloque l'accès direct aux fichiers PHP, JS et autres fichiers sensibles
+<FilesMatch "\.(phtml|php3|php4|php5|php7|phps|js|sh|bat|exe|pl|cgi|py|rb|env|ini|log|bak|sql|swp|htaccess|htpasswd)$">
+  Require all denied
+</FilesMatch>

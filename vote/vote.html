@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voter</title>
+    <link rel="icon" href="kamerstartbattle.png" type="image/x-icon">
+    <meta name="description" content="Voting page for selecting candidates in the Kamerstart Battle.">
+    <meta name="keywords" content="voting, candidates, Kamerstart Battle">
+    <meta name="author" content="claudystac">
+    <link rel="stylesheet" href="vote/votestyles.css">
+    <script src="vote/votescript.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Vote par catégorie</h1>
+        <p>Veuillez sélectionner la catégorie et le candidat pour voter.</p>
+        <div id="vote-message" style="text-align:center;color:#ffd700;font-weight:bold;margin-bottom:1.2rem;"></div>
+        
+        <div id="categories-filter" style="display:flex;flex-wrap:wrap;gap:1em;justify-content:center;margin-bottom:2em;">
+            <button class="cat-filter-btn" data-cat="Chant">Chant</button>
+            <button class="cat-filter-btn" data-cat="Danse">Danse</button>
+            <button class="cat-filter-btn" data-cat="Miss">Miss</button>
+            <button class="cat-filter-btn" data-cat="Master">Master</button>
+            <button class="cat-filter-btn" data-cat="Rap">Rap</button>
+            <button class="cat-filter-btn" data-cat="all">Toutes</button>
+        </div>
+
+        <div class="candidats">
+            <section class="categories_nom_cat">
+                <h2 class="cat-title">chant</h2>
+                <div class="liste_candidats">
+                    <div class="candidatNo_1">Candidat 1
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/chant_candidat_1_YcBecker.jpg" alt="YcBecker" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter YcBecker </button>
+                    </div>
+                    <div class="candidatNo_2">Candidat 2
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/chant_candidat_2_MiguiS.jpg" alt="MiguiS" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter MiguiS</button>
+                    </div>
+                    <div class="candidatNo_3">Candidat 3
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/chant_candidat_3_BaoLaMerveille.jpg" alt="BaoLaMerveille" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter nom_candidat</button>
+                    </div>
+                    <div class="candidatNo_4">Candidat 4
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/chant_candidat_4_FEG.jpg" alt="FEG" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter nom_candidat</button>
+                    </div>
+                    <div class="candidatNo_5">5
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/5.jpg" alt="Candidat 5" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter nom_candidat</button>
+                    </div>
+                    <div class="candidatNo_6">6
+                        <div class="profil_cat_chant">
+                            <img src="categories/chant/6.jpg" alt="Candidat 6" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter nom_candidat</button>
+                    </div>
+                </div>
+            </section>
+            <section class="categories_nom_cat">
+                <h2 class="cat-title">danse</h2>
+                <div class="liste_candidats">
+                    <div class="candidatNo_1">Candidat 1 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_1_DAKY💭.jpg" alt="DAKY💭" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter DAKY💭</button>
+
+                    </div>
+                    <div class="candidatNo_2">Candidat 2 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_2_Mutan.jpg" alt="Mutan" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter Mutan</button>
+
+                    </div>
+                    <div class="candidatNo_3">Candidat 3 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_3_ChrisbeeKiobee.jpg" alt="ChrisbeeKiobee" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter ChrisbeeKiobee</button>
+
+                    </div>
+                    <div class="candidatNo_4">Candidat 4 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_4_IbLastar.jpg" alt="IbLastar" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter IbLastar</button>
+
+                    </div>
+                    <div class="candidatNo_5">Candidat 5 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_5_Bob.jpg" alt="Bob" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter Bob</button>
+
+                    </div>
+                    <div class="candidatNo_6">Candidat 6 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_6_Jezus.jpg" alt="Jezus" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter Jezus</button>
+
+                    </div>
+                    <div class="candidatNo_6">Candidat 7 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_7_Manuel117.jpg" alt="Manuel117" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter Manuel117</button>
+
+                    </div>
+                    <div class="candidatNo_6">Candidat 8 
+                        <div class="profil_cat_chant">
+                            <img src="categories/danse/danse_candidat_8_AntiDot.jpg" alt="AntiDot" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter AntiDot</button>
+
+                    </div>
+                </div>
+            </section>
+            <section class="categories_nom_cat">
+                <h2 class="cat-title">miss</h2>
+                <div class="liste_candidats">
+                    <div class="candidatNo_1">1
+                        <div class="profil_cat_chant">
+                            <img src="categories/miss/miss_candidat_1_CharleneNKEM.jpg" alt="Candidat_1: CharleneNKEM" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter CharleneNKEM</button>
+                    </div>
+                </div>
+            </section>
+            <section class="categories_nom_cat">
+                <h2 class="cat-title">master</h2>
+                <div class="liste_candidats">
+                    <div class="candidatNo_1">1
+                        <div class="profil_cat_chant">
+                            <img src="categories/master/master_candidat_1_NkoaEmile.jpg" alt="Candidat_1: NkoaEmile" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter NkoaEmile</button>
+                    </div>
+                    <div class="candidatNo_2">2
+                        <div class="profil_cat_chant">
+                            <img src="categories/master/master_candidat_2_DarkKev.jpg" alt="Candidat_2: DarkKev" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter DarkKev</button>
+                    </div>
+                    <div class="candidatNo_3">3
+                        <div class="profil_cat_chant">
+                            <img src="categories/master/master_candidat_3_NyangaBoy.jpg" alt="Candidat_3: NyangaBoy" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter NyangaBoy</button>
+                    </div>
+                </div>
+            </section>
+            <section class="categories_nom_cat">
+                <h2 class="cat-title">rap</h2>
+                <div class="liste_candidats">
+                    <div class="candidatNo_1">1
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/rap_candidat_1_4gigas.jpg" alt="Candidat_1: 4gigas" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter 4gigas</button>
+                    </div>
+                    <div class="candidatNo_2">2
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/rap_candidat_2_MisterH.jpg" alt="Candidat_2: MisterH" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter MisterH</button>
+                    </div>
+                    <div class="candidatNo_3">3
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/rap_candidat_3_CriminelFantome.jpg" alt="Candidat_3: CriminelFantome" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter CriminelFantome</button>
+                    </div>
+                    <div class="candidatNo_4">4
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/rap_candidat_4_SK9.jpg" alt="Candidat_4: SK9" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter SK9</button>
+                    </div>
+                    <div class="candidatNo_5">5
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/rap_candidat_5_TGV.jpg " alt="Candidat_5: TGV" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter TGV</button>
+                    </div>
+                    <div class="candidatNo_6">6
+                        <div class="profil_cat_chant">
+                            <img src="categories/rap/6.jpg" alt="Candidat_6" class="ph_cdt">
+                        </div>
+                        <button class="vote-btn">Voter nom_candidat</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <p>Si vous avez déjà voté, vous pouvez consulter les résultats <a href="results.html">ici</a>.</p>
+        <p>Si vous souhaitez vous inscrire, cliquez <a href="register.html">ici </a>.</p>
+        <p>Si vous souhaitez vous connecter, cliquez <a href="login.html">ici</a>.</p>
+        <p>Pour plus d'informations, visitez notre site web <a href="https://www.kamerstartbattle.com">ici</a>.</p>
+        <p>Pour toute assistance, veuillez nous contacter à <a href="mailto:assistance@kamerstartbattle.com">assistance@kamerstartbattle.com</a>.</p>
+        <p>Pour des mises à jour et des annonces, suivez-nous sur nos réseaux sociaux.</p>
+        <p>Merci de participer à l'élection et de faire entendre votre voix!</p>
+        <p>Nous vous souhaitons bonne chance dans votre choix de candidats.</p>
+        <p>Votre vote compte et peut faire la différence!</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kamerstart Battle. Tous droits réservés.</p>
+        <p>Politique de confidentialité | Conditions d'utilisation</p>
+    </footer>
+    <script>
+// Message d'incitation dynamique
+const voteMessages = [
+    "Votez pour votre candidat préféré et revenez chaque jour pour soutenir votre choix !",
+    "Votre voix compte ! N'hésitez pas à revenir pour suivre l'évolution des votes.",
+    "Partagez le lien et invitez vos amis à voter !",
+    "Plus vous participez, plus votre candidat a de chances de gagner !",
+    "Merci de faire vivre la compétition, revenez pour voir les résultats !"
+];
+function showVoteMessage() {
+    const msg = voteMessages[Math.floor(Math.random() * voteMessages.length)];
+    document.getElementById('vote-message').textContent = msg;
+}
+showVoteMessage();
+setInterval(showVoteMessage, 8000);
+
+// Sélection et vote par catégorie
+const categories = document.querySelectorAll('.categories_nom_cat');
+categories.forEach((cat, idx) => {
+    const catTitle = cat.querySelector('.cat-title')?.textContent || 'Catégorie';
+    const candidats = cat.querySelectorAll('[class^="candidatNo_"]');
+    candidats.forEach((cdt, cdtIdx) => {
+        const num = cdtIdx + 1;
+        const nom = cdt.querySelector('img').alt;
+        cdt.addEventListener('click', function() {
+            // Retire la sélection précédente
+            candidats.forEach(c => c.classList.remove('selected'));
+            this.classList.add('selected');
+            showVoteModal({
+                nom,
+                categorie: catTitle,
+                numero: num
+            });
+        });
+    });
+});
+
+// Création de la fenêtre modale personnalisée
+function showVoteModal({ nom, categorie, numero }) {
+    // Supprime une modale existante
+    document.getElementById('vote-modal')?.remove();
+    const modal = document.createElement('div');
+    modal.id = 'vote-modal';
+    modal.innerHTML = `
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <h3>Vote pour ${nom}</h3>
+            <p><strong>Catégorie :</strong> ${categorie}</p>
+            <p><span style="display:inline-block;width:150px;height:150px;overflow:hidden;border:1rem solid-white;border-radius:100%;box-shadow: 0 0 1rem red"><img src="categories/${categorie}/${categorie}_candidat_${numero}_${nom}.jpg" width="100" alt="${nom}" style="width:150px;height:150px;border-radius:100%;box-shadow: 0 0 1rem red" /></span></p>
+            <p><strong>Numéro :</strong> ${numero}</p>
+            <label for="montant-vote">Montant du vote (min 125 XAF) :</label>
+            <input type="number" id="montant-vote" min="125" value="125" style="width:100%;padding:0.5em;margin-bottom:1em;">
+            <div style="display:flex;gap:1em;justify-content:center;">
+                <button id="btn-voter" class="vote-btn">Voter</button>
+                <button id="btn-fermer" class="vote-btn" style="background:#ccc;color:#333;">Annuler</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+    document.body.style.overflow = 'hidden';
+    document.getElementById('btn-fermer').onclick = () => {
+        modal.remove();
+        document.body.style.overflow = '';
+    };
+
+
+    document.getElementById('btn-voter').onclick = () => {
+        const montant = parseInt(document.getElementById('montant-vote').value, 10);
+        if (isNaN(montant) || montant < 125) {
+            alert('Le montant minimum est de 125 XAF.');
+            return;
+        }
+        /*
+        =============================
+        PARAMÈTRES CINETPAY À FOURNIR
+        =============================
+        Pour que le paiement fonctionne parfaitement, voici les paramètres OBLIGATOIRES et RECOMMANDÉS à envoyer à l'endpoint officiel CinetPay :
+        - site_id         : (OBLIGATOIRE) L'identifiant de votre site fourni par CinetPay (ex: '5877998')
+        - api_key         : (OBLIGATOIRE) Votre clé API CinetPay (ex: '189315520766beae6b512c91.41663436')
+        - transaction_id  : (OBLIGATOIRE) Un identifiant unique pour chaque transaction (ex: Date.now() + random)
+        - amount          : (OBLIGATOIRE) Le montant du paiement (en XAF)
+        - currency        : (OBLIGATOIRE) La devise, généralement 'XAF' pour l'Afrique Centrale
+        - description     : (OBLIGATOIRE) Description de la transaction (ex: 'Vote pour ...')
+        - return_url      : (RECOMMANDÉ) URL de redirection après paiement (succès ou échec)
+        - notify_url      : (RECOMMANDÉ) URL de notification serveur à serveur (callback backend)
+        - customer_name   : (RECOMMANDÉ) Nom du client (si disponible)
+        - customer_email  : (RECOMMANDÉ) Email du client (si disponible)
+        - customer_phone  : (RECOMMANDÉ) Téléphone du client (si disponible)
+        - lang            : (optionnel) Langue d'affichage du formulaire CinetPay ('fr', 'en', etc.)
+        - channels        : (optionnel) Moyen de paiement à afficher (ex: 'MOBILE_MONEY', 'CARTE', etc.)
+        - metadata        : (optionnel) Données additionnelles (JSON encodé)
+        
+        Consulte la documentation officielle CinetPay pour la liste complète et la signification des paramètres :
+        https://docs.cinetpay.com/
+        */
+        // Paramètres CinetPay (remplace par tes vraies infos)
+        const site_id = '105895553';
+        const api_key = '156781546166bead23063b25.42969593';
+        const transaction_id = Date.now() + '' + Math.floor(Math.random()*1000);
+        const description = `Vote pour ${nom} (${categorie} - N°${numero})`;
+        // IMPORTANT : Utilise toujours des URLs absolues (https://...) accessibles publiquement !
+        const return_url = 'https://www.kamerstartbattle.odoo.com/retour-paiement';
+        const notify_url = 'https://www.kamerstartbattle.odoo.com/notify-paiement';
+        // Création d'un formulaire POST pour la redirection sécurisée
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = 'https://secure.cinetpay.com/v1/?method=payment';
+        form.target = '_blank';
+        // Respect strict des paramètres attendus par CinetPay
+        // Voir https://docs.cinetpay.com/api/payment/request/
+        const params = {
+            site_id,
+            apikey: api_key, // la clé doit être "apikey" et non "api_key" selon la doc officielle
+            transaction_id,
+            amount: montant,
+            currency: 'XAF',
+            description,
+            return_url,
+            notify_url,
+            // Les champs suivants sont optionnels mais recommandés si tu as l'info :
+            // customer_name: nom,
+            // customer_email: '',
+            customer_phone: '690780519', // Remplace par le numéro de téléphone du client
+            lang: 'fr',
+            // channels: 'MOBILE_MONEY',
+            channels: 'MOBILE_MONEY',
+            // channels: 'ALL', // 'ALL' pour tous les canaux disponibles
+            // channels: 'MOBILE_MONEY',
+            metadata: JSON.stringify({ categorie, numero })
+        };
+        for (const key in params) {
+            if (params[key]) {
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = key;
+                input.value = params[key];
+                form.appendChild(input);
+            }
+        }
+        document.body.appendChild(form);
+        form.submit();
+        setTimeout(() => form.remove(), 2000);
+        modal.remove();
+        document.body.style.overflow = '';
+    };
+}
+
+// Filtre par catégorie
+const filterBtns = document.querySelectorAll('.cat-filter-btn');
+const catSections = document.querySelectorAll('.categories_nom_cat');
+filterBtns.forEach(btn => {
+    btn.onclick = function() {
+        const cat = btn.getAttribute('data-cat');
+        // Ajoute la classe active au bouton cliqué
+        btn.classList.add('active');
+        // Affiche/masque les sections en fonction de la catégorie
+        if (cat === 'all') {
+            catSections.forEach(sec => sec.style.display = '');
+
+        } else {
+            alert(`Filtrer les candidats de la catégorie : ${cat}`);
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            // Affiche/masque les sections en fonction de la catégorie
+
+            catSections.forEach(sec => {
+                // Vérifie si le titre de la section contient la catégorie
+                // Utilise textContent pour éviter les problèmes d'espaces ou de casse
+                const cat = btn.getAttribute('data-cat');   
+                sec.style.display = 'none'; // Masque par défaut
+                // Vérifie si le titre de la section contient la catégorie
+                const title = sec.querySelector('.cat-title')?.textContent || '';
+                
+
+                if (title.includes(cat)) {
+                    sec.style.display = '';
+                } else {
+                    sec.style.display = 'none';
+                }
+            });
+        }
+        // Optionnel : scroll vers la section visible
+        const firstVisible = Array.from(catSections).find(sec => sec.style.display !== 'none');
+        if (firstVisible) firstVisible.scrollIntoView({behavior:'smooth', block:'start'});
+    };
+});
+
+// Style modale
+const style = document.createElement('style');
+style.textContent = `
+#vote-modal { position: fixed; z-index: 9999; top:0; left:0; width:100vw; height:100vh; display:flex; align-items:center; justify-content:center; }
+#vote-modal .modal-backdrop { position:absolute; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.45); }
+#vote-modal .modal-content { position:relative; background:#fff; border-radius:16px; box-shadow:0 8px 32px #0002; padding:2.2em 1.5em 1.5em 1.5em; min-width:320px; max-width:95vw; z-index:2; animation:pop-in .7s; }
+#vote-modal h3 { margin-top:0; color:#007bff; }
+#vote-modal label { font-weight:500; color:#0056b3; }
+#vote-modal input[type=number] { border-radius:8px; border:1px solid #b0c4de; font-size:1.1em; }
+@keyframes pop-in { 0%{opacity:0;transform:scale(0.9);} 100%{opacity:1;transform:scale(1);} }
+`;
+document.head.appendChild(style);
+
+// Style pour les boutons de filtre
+const filterStyle = document.createElement('style');
+filterStyle.textContent = `
+#categories-filter { margin-bottom:2em; }
+.cat-filter-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7em 1.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px #0001;
+}
+.cat-filter-btn:hover, .cat-filter-btn.active {
+    background: #ffd700;
+    color: #222;
+    transform: scale(1.07);
+}
+`;
+document.head.appendChild(filterStyle);
+
+
+    </script>
+
+</body>
+</html>
+

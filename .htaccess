@@ -1,0 +1,37 @@
+
+# Empêche l'affichage du contenu des dossiers
+Options -Indexes
+
+# Bloque l'accès direct aux fichiers PHP, JS et autres fichiers sensibles
+ErrorDocument 403 /404.php
+<FilesMatch "\.(|phtml|php3|php4|php5|php7|phps|sh|bat|exe|pl|cgi|py|rb|env|ini|log|bak|sql|swp|htaccess|htpasswd)$">
+  Require all denied
+</FilesMatch>
+
+# Bloque l'accès aux fichiers de configuration et backup
+<FilesMatch "\.(env|ini|log|bak|sql|swp|htaccess|htpasswd)$">
+  Require all denied
+</FilesMatch>
+ 
+# Protège le fichier .htaccess lui-même
+<Files ".htaccess">
+  Require all denied
+</Files>
+
+# Redirige vers HTTPS (si SSL activé)
+RewriteEngine On
+
+# Désactive l'affichage des erreurs PHP
+php_flag display_errors On
+php_flag display_startup_errors On
+
+# Protection contre le hotlinking des images
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?kamerstartbattle\. [NC]
+RewriteCond %{HTTP_REFERER} !^http?://(192.168.83.1/\.)?kamerstartbattle\. [NC]
+RewriteCond %{HTTP_REFERER} !^http?://(www\.)?(192.168.83.1\.)?kamerstartbattle\. [NC]
+RewriteRule \.(|jpeg|gif|bmp|webp)$ - [F,NC]
+
+# Limite la taille des uploads (optionnel)
+php_value upload_max_filesize 10M
+php_value post_max_size 12M

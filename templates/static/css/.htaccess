@@ -1,0 +1,5 @@
+# Bloque l'accès direct aux fichiers PHP, et autres fichiers sensibles
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|py|phps|sh|bat|exe|pl|cgi|py|rb|env|ini|log|bak|sql|swp|htaccess|htpasswd)$">
+  ErrorDocument 403 /404.php
+  Require all denied
+</FilesMatch>
