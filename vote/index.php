@@ -1,5 +1,6 @@
 <?php 
-    $domaine="http://192.168.50.216/kamerstartbattle/";
+    // $domaine="http://192.168.50.216/kamerstartbattle/";
+    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
 ?>
 <!DOCTYPE html>
 <html lang="en">

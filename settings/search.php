@@ -1,6 +1,7 @@
 <?php
 // search.php
-    $domaine="http://192.168.83.1/kamerstartbattle/";
+    // $domaine="http://192.168.83.1/kamerstartbattle/";
+    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
 $query = isset($_GET['q']) ? trim($_GET['q']) : '';
 $results = [];
 

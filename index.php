@@ -1,6 +1,7 @@
 <?php
 // index.php
-    $domaine="https://kamerstarbattle.vercel.app/";
+    // $domaine="http://192.168.83.1/kamerstartbattle/";
+    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -394,7 +395,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
     }
     .main-subtitle {
         font-size: 1.15rem;
