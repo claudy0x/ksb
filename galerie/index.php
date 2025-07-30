@@ -1,6 +1,6 @@
 <?PHP
     // $domaine="http://192.168.83.1/kamerstartbattle/";
-    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
+    $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -342,7 +342,10 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="gallery-videos-section">
+        
+        <!--  -->
+        
+        <section class="gallery-videos-section">
             <h3 class="gallery-subtitle"><span class="gallery-icon">🎬</span> Galerie Vidéo</h3>
             <div class="gallery-videos-grid">
                 <div class="gallery-video-card">
@@ -367,7 +370,7 @@
                     <span class="gallery-video-caption">Finale en direct</span>
                 </div>
             </div>
-        </section> -->
+        </section> 
         <section class="gallery-contact-section">
             <h3 class="gallery-subtitle">Contact & Collaboration</h3>
             <div class="gallery-contact-card">

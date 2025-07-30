@@ -1,6 +1,6 @@
 <?php 
     // $domaine="http://192.168.50.216/kamerstartbattle/";
-    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
+    $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +23,7 @@
         <div id="vote-message" style="text-align:center;color:#ffd700;font-weight:bold;margin-bottom:1.2rem;"></div>
         <div id="categories-filter" style="display:flex;flex-wrap:wrap;gap:1em;justify-content:center;margin-bottom:2em;">
             <button class="cat-filter-btn" data-cat="HipHop">Hip Hop danse</button>
+            <button class="cat-filter-btn" data-cat="Foot">Foot</button>
             <button class="cat-filter-btn" data-cat="Miss">Miss</button>
             <button class="cat-filter-btn" data-cat="Master">Master</button>
             <button class="cat-filter-btn" data-cat="Chant">Chant</button>
@@ -36,6 +37,12 @@
 
         </div>
         <div class="candidats">
+            
+            <!-- FOOTBALL -->
+            <section class="categories_nom_cat" data-cat="Foot">
+                <h2 class="cat-title">Foot</h2>
+                <div class="liste_candidats" id="foot-candidats"></div>
+            </section>
             <!-- MISS -->
             <section class="categories_nom_cat" data-cat="Miss">
                 <h2 class="cat-title">Miss</h2>
@@ -77,11 +84,12 @@
                 <h2 class="cat-title">Danse du CoupeDecale </h2>
                 <div class="liste_candidats" id="coupedecale-candidats"></div>
             </section>
-            <!-- DANSE
-            <section class="categories_nom_cat" data-cat="Danse">
+            
+            <!-- DANSE -->
+            <!-- <section class="categories_nom_cat" data-cat="Danse">
                 <h2 class="cat-title">Danse</h2>
                 <div class="liste_candidats" id="danse-candidats"></div>
-            </section> -->
+            </section>  -->
         </div>
 
         <section>
@@ -359,6 +367,48 @@ const candidatsData = {
         { categ:'danse',nom: 'TakTik', img: 'categories/danse/danse_candidat_17_TakTik.jpg' },
         { categ:'danse',nom: 'Mirrage', img: 'categories/danse/danse_candidat_18_Mirrage.jpg' },
 
+    ],
+    Foot: [
+        { categ:'Foot',nom: 'JOUEUR 1', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 2', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 3', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 4', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 5', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 6', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 7', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 8', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 9', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 10', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 11', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 12', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 13', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 14', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 15', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 16', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 17', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 18', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 19', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 20', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 21', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 22', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 23', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 24', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 25', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 26', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 27', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 28', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 29', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 30', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 31', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 32', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 33', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 34', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 35', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 36', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 37', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 38', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 39', img: 'categories/football/affiche_foot.jpg' },
+        { categ:'Foot',nom: 'JOUEUR 40', img: 'categories/football/affiche_foot.jpg' },
     ],
     Miss: [
         { categ:'Miss',nom: 'CharleneNKEM', img: 'categories/miss/miss_candidate_1_CharleneNKEM.jpg' },

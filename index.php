@@ -1,7 +1,7 @@
 <?php
 // index.php
     // $domaine="http://192.168.83.1/kamerstartbattle/";
-    $domaine="https://z0sdrh26-8070.uks1.devtunnels.ms/kamerstartbattle/";
+    $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
