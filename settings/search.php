@@ -7,25 +7,23 @@ $results = [];
 
 // Liste des candidats par catégorie (doit être synchronisée avec le JS du site)
 $candidatsData = [
-    'Chant' => [
-        'YCBecker', 'MiguiS', 'BaoLaMerveille', 'FEG', 'Syska', 'Dly',''
-    ],
-    'Danse' => [
-        'DAKY💭', 'Mutan', 'ChrisbeEKiobee', 'IbLastar', 'Bob', 'Jezus', 'Manuel117', 'AntiDot', 'DaniBlue', 'MrSalim', 'Queen', 'HansB', 'Zkelly', 'JordyAfro', 'VortexAlpha3', 'Leader9', 'TakTik'
-    ],
-    'Miss' => [
-        'CharleneNKEM', 'EssoumaMichelle'
-    ],
-    'Master' => [
-        'ChinoisFk', 'DarkKev', 'NyangaBoy', 'Stiller'
-    ],
-    'Rap' => [
-        '4gigas', 'MisterH', 'CriminelFantome', 'SK9', 'TGV'
-    ],
+    'Chant' => ['YCBecker', 'MiguiS', 'BaoLaMerveille', 'FEG', 'Syska', 'Dly',''],
+    'Danse' => ['DAKY💭', 'Mutan', 'ChrisbeEKiobee', 'IbLastar', 'Bob', 'Jezus', 'Manuel117', 'AntiDot', 'DaniBlue', 'MrSalim', 'Queen', 'HansB', 'Zkelly', 'JordyAfro', 'VortexAlpha3', 'Leader9', 'TakTik'],
+    'Miss' => ['CharleneNKEM', 'EssoumaMichelle'],
+    'Master' => ['ChinoisFk', 'DarkKev', 'NyangaBoy', 'Str'],
+    'Rap' => ['4gigas', 'MisterH', 'CriminelFantome', 'SK9', 'TGV'],
     'Afro' => [ 'DAKY','Bob','Jezus','Manuel117','AntiDot','DaniBlue','Queen','JordyAfro','Leader9','TakTik'],
     'Mbole' => [ 'DAKY','Bob','MrSalim','Zkelly','TakTik','Mirrage'],
     'HipHop' => [ 'ChrisbeEKiobee','HansB','VortexAlpha3'],
     'CoupeDecale' => ['4gigas','Mutan','IbLastar','Jezus','AntiDot','Zkelly','DoupiPapillon'],
+    'Foot' => ['Joueur','x','x','x','x','x','x'],
+    'Attaquant' => ['Joueur','x','x','x','x','x','x'],
+    'Défensse' => ['Joueur','x','x','x','x','x','x'],
+    'Lateral gauche' => ['Joueur','x','x','x','x','x','x'],
+    'Lateral droite' => ['Joueur','x','x','x','x','x','x'],
+    'Avant centre' => ['Joueur','x','x','x','x','x','x'],
+    'Gardien' => ['Joueur','x','x','x','x','x','x'],
+    'Capitaine' => ['Joueur','x','x','x','x','x','x'],
 ];
 
 if ($query !== '') {

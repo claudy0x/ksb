@@ -26,8 +26,6 @@
   gtag('config', 'G-F7YJPW4XZ7');
 </script>
 
-
-
 <meta name="description" content="Voter application for registering, logging in, and voting in elections.">
 <meta name="keywords" content="voter, election, register, login, vote, results">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

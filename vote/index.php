@@ -1,6 +1,6 @@
 <?php 
-    // $domaine="http://192.168.50.216/kamerstartbattle/";
-    $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
+    $domaine="http://192.168.83.1/kamerstartbattle/";
+    // $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
 <body style="padding-top: 6.8rem;background: url('templates/family-members-exchanging-hugs-smiles-medium-shot.jpg') center center/cover no-repeat fixed; min-height:100vh;">
     <?php include ("../templates/header_z.php")?>
     <main>
-        <h1>Vote par catégorie</h1>
+        <h1>Séléctionner une catégorie </h1>
         <p>Veuillez sélectionner la catégorie et le candidat pour voter.</p>
         <div id="vote-message" style="text-align:center;color:#ffd700;font-weight:bold;margin-bottom:1.2rem;"></div>
         <div id="categories-filter" style="display:flex;flex-wrap:wrap;gap:1em;justify-content:center;margin-bottom:2em;">

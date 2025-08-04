@@ -1,8 +1,8 @@
 <meta charset="UTF-8">
 <?php
     // liens.php
-    // $domaine="http://192.168.83.1/kamerstartbattle/";
-    $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
+    $domaine="http://192.168.83.1/kamerstartbattle/";
+    // $domaine="https://z0sdrh26-7070.uks1.devtunnels.ms/kamerstartbattle/";
     // Change this to your domain if needed
     // $domaine="https://kamerstartbattle.com/"; // Uncomment this line if you want to use the live domain
 ?>
